@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.07pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Document Compression}{6}{0}{1}
+\beamer@sectionintoc {2}{Lossless Image Compression}{24}{0}{2}
+\beamer@sectionintoc {3}{Lossy Image Compression}{39}{0}{3}
+\beamer@sectionintoc {4}{Compression of Textual Images}{55}{0}{4}

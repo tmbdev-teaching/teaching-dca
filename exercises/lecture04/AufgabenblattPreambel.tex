@@ -1,0 +1,59 @@
+\documentclass[11pt]{article}
+\usepackage{times}
+\usepackage[latin1]{inputenc}
+\usepackage{ifthen}
+\input{dinA4}
+\newcommand{\Veranstaltung}{Document~and~Content~Analysis~(SS~2009)}
+\renewcommand{\thepage}{{\small\Veranstaltung}\hfill(\arabic{Blattnr})~\arabic{page}/\thelastpagenumber}
+\makeatletter\def\thelastpagenumber{\textbf{??}}\AtEndDocument{\immediate\write\@auxout{\string\global\string\def\string\thelastpagenumber{\arabic{page}}}}\makeatother
+\newcounter{Blattnr}
+\newcommand{\AufgName}{Exercise}
+\newtheorem{Aufg}{\AufgName}[Blattnr]
+\newenvironment{Aufgabe}[2][]{%
+ \ifthenelse{\equal{#1}{}}{\begin{Aufg}}{\begin{Aufg}[#1]}\normalfont\mbox{}#2\\
+}{%
+ \end{Aufg}%
+}
+\newenvironment{Aufgabenblatt}[3]{%
+ \newpage%
+ \setcounter{page}{1}%
+ \setcounter{Blattnr}{#1}%
+ \noindent
+ Image~Understanding~and~Pattern~Recognition \hfill #2\\
+ Prof.~Dr.~Thomas~M.~Breuel \hfill Dr.~Faisal~Shafait\\[2\baselineskip]
+ \centerline{\textbf{\Large \Veranstaltung}}\\[\baselineskip]
+ \centerline{\textbf{\Large\Vorsatz Exercise Sheet \theBlattnr}}\\[2\baselineskip]
+ \AbgabeText{#3}\\
+% \footnotesize
+% \Rule
+% Bearbeiten Sie zur Vertiefung der Vorlesung nach Möglichkeit stets alle Aufgaben!\\
+% Mit Punkten ausgezeichnete Aufgaben können in den Übungen zur Korrektur abgegeben werden.\\
+% Bitte kommentieren Sie ihre Lösungen dann stets ausführlich!
+% \\[-1.1ex]
+ \Rule
+ \par
+ \normalsize
+}{%
+ \par
+ \vfill
+%%% \vspace{1ex}
+ \noindent
+ \Rule
+ \texttt{\footnotesize http://courses.iupr.org}
+ \par
+}
+\newcommand{\AbgabeText}[1]{\textbf{to be submitted by E-Mail to faisal.shafait@dfki.de by: #1}}
+\newcommand{\Vorsatz}{}
+\newcommand{\Vorlaeufig}{\fbox{Vorläufiges (!)} }
+\newcommand{\Rule}[1][0pt]{\rule{\linewidth}{.5pt}\\[#1]}
+\newcommand{\Punkte}[1]{\hfill(#1~Point\ifnum#1=1\else s\fi)}
+\newcounter{Enumi}
+\newcommand{\abccontinue}{\arabic{enumi}}
+\newenvironment{abcenumerate}[1][0]{%
+ \ifnum1=1#1\setcounter{Enumi}{\value{enumi}}\else\setcounter{Enumi}{#1}\fi%
+ \begin{enumerate}\setcounter{enumi}{\value{Enumi}}\renewcommand{\labelenumi}{\alph{enumi})}%
+}{%
+ \end{enumerate}%
+}
+\newcommand{\abcenumerateUnskip}[1][-1.2\baselineskip]{\vspace{#1}}
+\def\$#1${\mbox{$#1$}}

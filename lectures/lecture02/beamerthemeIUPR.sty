@@ -1,0 +1,38 @@
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\mode<presentation>
+
+% colors
+
+\definecolor{dfkiblue}{rgb}{0.29,0.56,0.68}
+
+\setbeamercolor{normal text}{fg=black, bg=white}
+\setbeamercolor{alerted text}{fg=dfkiblue}
+\setbeamercolor{structure}{fg=dfkiblue}
+
+
+%% logos
+\setbeamertemplate{headline}{\vspace{3ex}\hfill \includegraphics[height=4mm]{dfki}~~~~\vspace{-.7cm}}
+\setbeamertemplate{footline}{%
+  \hspace{0.5cm}%
+  %%
+  \begin{minipage}{11.2cm}
+    \rule{11.2cm}{1pt}
+    ~~~\insertshortauthor :\phantom{X}\insertshorttitle \hfill
+    \insertframenumber \hfill
+    \insertdate\\
+  \end{minipage}%
+  ~~~~~~
+  \begin{minipage}{2cm}
+    \includegraphics[height=2.5mm]{iuprlogo}\\[1ex]
+  \end{minipage}
+}
+
+\setbeamertemplate{navigation symbols}[vertical]
+\setbeamerfont{block title}{size={}}
+
+\mode
+<all>
