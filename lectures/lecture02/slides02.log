@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.4.25)  23 JUL 2009 04:11
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.10.15)  20 APR 2010 12:45
 entering extended mode
  %&-line parsing enabled.
 **slides02.tex
@@ -587,8 +587,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count151
 \rot@float@box=\box52
-)
-No file slides02.aux.
+) (./slides02.aux)
 \openout1 = `slides02.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -605,6 +604,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
+
 (/usr/share/texmf/tex/context/base/supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count152
@@ -668,6 +668,8 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
+ (./slides02.out)
+(./slides02.out)
 \@outlinefile=\write4
 \openout4 = `slides02.out'.
 
@@ -713,9 +715,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 44.
-
-No file slides02.nav.
-
+ (./slides02.nav)
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
 
  []
@@ -729,7 +729,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
-<images/iuprlogo.pdf, id=15, 349.305pt x 140.525pt>
+<images/iuprlogo.pdf, id=31, 349.305pt x 140.525pt>
 File: images/iuprlogo.pdf Graphic file (type pdf)
  <use images/iuprlogo.pdf>
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
@@ -741,7 +741,7 @@ Overfull \hbox (21.29773pt too wide) in paragraph at lines 44--44
 []$       $[]$[][]  
  []
 
-<images/dfki.pdf, id=16, 429.605pt x 160.6pt>
+<images/dfki.pdf, id=32, 429.605pt x 160.6pt>
 File: images/dfki.pdf Graphic file (type pdf)
  <use images/dfki.pdf>
 
@@ -848,10 +848,9 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [5
 
-]
-No file slides02.toc.
+] (./slides02.toc)
 File: images/dfki.pdf Graphic file (type pdf)
-<use images/dfki.pdf>
+ <use images/dfki.pdf>
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
@@ -889,7 +888,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [7
 
-] <images/communicationsystem.png, id=80, 271.0125pt x 54.2025pt>
+] <images/communicationsystem.png, id=103, 271.0125pt x 54.2025pt>
 File: images/communicationsystem.png Graphic file (type png)
 
 <use images/communicationsystem.png>
@@ -1212,10 +1211,9 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [23
 
-]
-No file slides02.toc.
+] (./slides02.toc)
 File: images/dfki.pdf Graphic file (type pdf)
-<use images/dfki.pdf>
+ <use images/dfki.pdf>
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
@@ -1333,7 +1331,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [29
 
-] <images/dct.png, id=227, 716.6775pt x 691.58376pt>
+] <images/dct.png, id=252, 716.6775pt x 691.58376pt>
 File: images/dct.png Graphic file (type png)
  <use images/dct.png>
 File: images/dfki.pdf Graphic file (type pdf)
@@ -1357,7 +1355,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [30
 
  <./images/dct.png (PNG copy)>]
-<images/Ex_BasisImages1.pdf, id=234, 578.16pt x 118.4425pt>
+<images/Ex_BasisImages1.pdf, id=259, 578.16pt x 118.4425pt>
 File: images/Ex_BasisImages1.pdf Graphic file (type pdf)
 
 <use images/Ex_BasisImages1.pdf>
@@ -1381,7 +1379,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [31
 
  <./images/Ex_BasisImages1.pdf>]
-<images/Ex_BasisImages2.pdf, id=251, 578.16pt x 118.4425pt>
+<images/Ex_BasisImages2.pdf, id=276, 578.16pt x 118.4425pt>
 File: images/Ex_BasisImages2.pdf Graphic file (type pdf)
 
 <use images/Ex_BasisImages2.pdf>
@@ -1405,7 +1403,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [32
 
  <./images/Ex_BasisImages2.pdf>]
-<images/Ex_BasisImages3.pdf, id=267, 543.02875pt x 117.43875pt>
+<images/Ex_BasisImages3.pdf, id=292, 543.02875pt x 117.43875pt>
 File: images/Ex_BasisImages3.pdf Graphic file (type pdf)
 
 <use images/Ex_BasisImages3.pdf>
@@ -1429,7 +1427,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [33
 
  <./images/Ex_BasisImages3.pdf>]
-<images/Ex_BasisImages4.pdf, id=282, 554.07pt x 117.43875pt>
+<images/Ex_BasisImages4.pdf, id=307, 554.07pt x 117.43875pt>
 File: images/Ex_BasisImages4.pdf Graphic file (type pdf)
 
 <use images/Ex_BasisImages4.pdf>
@@ -1453,7 +1451,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [34
 
  <./images/Ex_BasisImages4.pdf>]
-<images/Ex_BasisImages5.pdf, id=298, 466.74374pt x 364.36125pt>
+<images/Ex_BasisImages5.pdf, id=323, 466.74374pt x 364.36125pt>
 File: images/Ex_BasisImages5.pdf Graphic file (type pdf)
 
 <use images/Ex_BasisImages5.pdf>
@@ -1477,7 +1475,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [35
 
  <./images/Ex_BasisImages5.pdf>]
-<images/Ex_BasisImages6.pdf, id=318, 466.74374pt x 364.36125pt>
+<images/Ex_BasisImages6.pdf, id=343, 466.74374pt x 364.36125pt>
 File: images/Ex_BasisImages6.pdf Graphic file (type pdf)
 
 <use images/Ex_BasisImages6.pdf>
@@ -1540,10 +1538,9 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [38
 
-]
-No file slides02.toc.
+] (./slides02.toc)
 File: images/dfki.pdf Graphic file (type pdf)
-<use images/dfki.pdf>
+ <use images/dfki.pdf>
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
@@ -1581,10 +1578,10 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [40
 
-] <images/lena.png, id=365, 513.92pt x 513.92pt>
+] <images/lena.png, id=392, 513.92pt x 513.92pt>
 File: images/lena.png Graphic file (type png)
  <use images/lena.png>
-<images/lena-2.png, id=366, 513.92pt x 513.92pt>
+<images/lena-2.png, id=393, 513.92pt x 513.92pt>
 File: images/lena-2.png Graphic file (type png)
  <use images/lena-2.png>
 File: images/dfki.pdf Graphic file (type pdf)
@@ -1610,7 +1607,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
  <./images/lena.png (PNG copy)> <./images/lena-2.png>]
 File: images/lena.png Graphic file (type png)
 
-<use images/lena.png> <images/lena-lowpass.png, id=374, 513.92pt x 513.92pt>
+<use images/lena.png> <images/lena-lowpass.png, id=401, 513.92pt x 513.92pt>
 File: images/lena-lowpass.png Graphic file (type png)
 
 <use images/lena-lowpass.png>
@@ -1636,7 +1633,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
  <./images/lena-lowpass.png (PNG copy)>]
 File: images/lena.png Graphic file (type png)
  <use images/lena.png>
-<images/lena-420.png, id=381, 513.92pt x 513.92pt>
+<images/lena-420.png, id=408, 513.92pt x 513.92pt>
 File: images/lena-420.png Graphic file (type png)
  <use images/lena-420.png>
 File: images/dfki.pdf Graphic file (type pdf)
@@ -1662,7 +1659,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
  <./images/lena-420.png (PNG copy)>]
 File: images/lena.png Graphic file (type png)
  <use images/lena.png>
-<images/lena-small.png, id=389, 256.96pt x 256.96pt>
+<images/lena-small.png, id=416, 256.96pt x 256.96pt>
 File: images/lena-small.png Graphic file (type png)
 
 <use images/lena-small.png>
@@ -1705,15 +1702,15 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [45
 
-] <images/image-matrix.png, id=402, 333.245pt x 195.73125pt>
+] <images/image-matrix.png, id=429, 333.245pt x 195.73125pt>
 File: images/image-matrix.png Graphic file (type png)
 
 <use images/image-matrix.png>
-<images/subtracted-matrix.png, id=403, 428.60126pt x 195.73125pt>
+<images/subtracted-matrix.png, id=430, 428.60126pt x 195.73125pt>
 File: images/subtracted-matrix.png Graphic file (type png)
 
 <use images/subtracted-matrix.png>
-<images/DCT-matrix.png, id=404, 418.56375pt x 195.73125pt>
+<images/DCT-matrix.png, id=431, 418.56375pt x 195.73125pt>
 File: images/DCT-matrix.png Graphic file (type png)
 
 <use images/DCT-matrix.png>
@@ -1738,13 +1735,13 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
  <./images/image-matrix.png (PNG copy)> <./images/subtracted-matrix.png (PNG co
 py)> <./images/DCT-matrix.png (PNG copy)>]
-<images/quantization-matrix.png, id=411, 958.58125pt x 416.55624pt>
+<images/quantization-matrix.png, id=438, 958.58125pt x 416.55624pt>
 File: images/quantization-matrix.png Graphic file (type png)
 
 <use images/quantization-matrix.png>
 File: images/DCT-matrix.png Graphic file (type png)
  <use images/DCT-matrix.png>
-<images/quantized-matrix.png, id=412, 328.22626pt x 195.73125pt>
+<images/quantized-matrix.png, id=439, 328.22626pt x 195.73125pt>
 File: images/quantized-matrix.png Graphic file (type png)
 
 <use images/quantized-matrix.png>
@@ -1774,7 +1771,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 PNG copy)>]
 File: images/quantized-matrix.png Graphic file (type png)
  <use images/quantized-matrix.png>
-<images/zigzag.png, id=419, 162.6075pt x 156.585pt>
+<images/zigzag.png, id=446, 162.6075pt x 156.585pt>
 File: images/zigzag.png Graphic file (type png)
  <use images/zigzag.png>
 File: images/dfki.pdf Graphic file (type pdf)
@@ -1832,7 +1829,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [49
 
-] <images/codes.png, id=434, 563.10374pt x 365.365pt>
+] <images/codes.png, id=461, 563.10374pt x 365.365pt>
 File: images/codes.png Graphic file (type png)
 
 <use images/codes.png>
@@ -1875,22 +1872,22 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [51
 
-] <images/lena-orig.jpg, id=447, 200.75pt x 200.75pt>
+] <images/lena-orig.jpg, id=474, 200.75pt x 200.75pt>
 File: images/lena-orig.jpg Graphic file (type jpg)
 
 <use images/lena-orig.jpg>
 File: images/lena-orig.jpg Graphic file (type jpg)
  <use images/lena-orig.jpg>
-<images/lena-1600.jpg, id=448, 200.75pt x 200.75pt>
+<images/lena-1600.jpg, id=475, 200.75pt x 200.75pt>
 File: images/lena-1600.jpg Graphic file (type jpg)
  <use images/lena-1600.jpg>
-<images/lena-0267.jpg, id=449, 200.75pt x 200.75pt>
+<images/lena-0267.jpg, id=476, 200.75pt x 200.75pt>
 File: images/lena-0267.jpg Graphic file (type jpg)
  <use images/lena-0267.jpg>
-<images/lena-0114.jpg, id=450, 200.75pt x 200.75pt>
+<images/lena-0114.jpg, id=477, 200.75pt x 200.75pt>
 File: images/lena-0114.jpg Graphic file (type jpg)
  <use images/lena-0114.jpg>
-<images/lena-0080.jpg, id=451, 200.75pt x 200.75pt>
+<images/lena-0080.jpg, id=478, 200.75pt x 200.75pt>
 File: images/lena-0080.jpg Graphic file (type jpg)
  <use images/lena-0080.jpg>
 Overfull \vbox (2.1183pt too high) detected at line 910
@@ -1956,10 +1953,9 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [54
 
-]
-No file slides02.toc.
+] (./slides02.toc)
 File: images/dfki.pdf Graphic file (type pdf)
-<use images/dfki.pdf>
+ <use images/dfki.pdf>
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
@@ -1997,7 +1993,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [56
 
-] <images/nederl.pdf, id=484, 774.895pt x 489.83pt>
+] <images/nederl.pdf, id=513, 774.895pt x 489.83pt>
 File: images/nederl.pdf Graphic file (type pdf)
  <use images/nederl.pdf>
 File: images/dfki.pdf Graphic file (type pdf)
@@ -2040,10 +2036,10 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [58
 
-] <images/ccitt1.png, id=503, 258.9675pt x 56.21pt>
+] <images/ccitt1.png, id=532, 258.9675pt x 56.21pt>
 File: images/ccitt1.png Graphic file (type png)
  <use images/ccitt1.png>
-<images/ccitt3.png, id=504, 337.26pt x 159.59625pt>
+<images/ccitt3.png, id=533, 337.26pt x 159.59625pt>
 File: images/ccitt3.png Graphic file (type png)
  <use images/ccitt3.png>
 File: images/dfki.pdf Graphic file (type pdf)
@@ -2067,10 +2063,10 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [59
 
  <./images/ccitt1.png> <./images/ccitt3.png>]
-<images/rle.jpg, id=513, 765.86125pt x 132.495pt>
+<images/rle.jpg, id=542, 765.86125pt x 132.495pt>
 File: images/rle.jpg Graphic file (type jpg)
  <use images/rle.jpg>
-<images/fig8-14.png, id=514, 665.48625pt x 409.53pt>
+<images/fig8-14.png, id=543, 665.48625pt x 409.53pt>
 File: images/fig8-14.png Graphic file (type png)
  <use images/fig8-14.png>
 File: images/dfki.pdf Graphic file (type pdf)
@@ -2094,11 +2090,11 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 [60
 
  <./images/rle.jpg> <./images/fig8-14.png (PNG copy)>]
-<images/context1.jpg, id=521, 313.17pt x 197.73875pt>
+<images/context1.jpg, id=550, 313.17pt x 197.73875pt>
 File: images/context1.jpg Graphic file (type jpg)
 
 <use images/context1.jpg>
-<images/contexts.jpg, id=522, 724.7075pt x 170.6375pt>
+<images/contexts.jpg, id=551, 724.7075pt x 170.6375pt>
 File: images/contexts.jpg Graphic file (type jpg)
 
 <use images/contexts.jpg>
@@ -2161,7 +2157,7 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [63
 
-] <images/templa.pdf, id=542, 574.145pt x 394.47375pt>
+] <images/templa.pdf, id=571, 574.145pt x 394.47375pt>
 File: images/templa.pdf Graphic file (type pdf)
 
 <use images/templa.pdf>
@@ -2184,10 +2180,10 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [64
 
- <./images/templa.pdf>] <images/bib.pdf, id=555, 803.0pt x 71.26625pt>
+ <./images/templa.pdf>] <images/bib.pdf, id=584, 803.0pt x 71.26625pt>
 File: images/bib.pdf Graphic file (type pdf)
 
-<use images/bib.pdf> <images/bsp.jpg, id=556, 442.65375pt x 224.84pt>
+<use images/bib.pdf> <images/bsp.jpg, id=585, 442.65375pt x 224.84pt>
 File: images/bsp.jpg Graphic file (type jpg)
 
 <use images/bsp.jpg>
@@ -2234,16 +2230,16 @@ Overfull \hbox (35.5241pt too wide) has occurred while \output is active
 
 [66
 
-] <images/djv1.jpg, id=577, 415.5525pt x 540.0175pt>
+] <images/djv1.jpg, id=606, 415.5525pt x 540.0175pt>
 File: images/djv1.jpg Graphic file (type jpg)
  <use images/djv1.jpg>
-<images/djv2.jpg, id=578, 301.125pt x 381.425pt>
+<images/djv2.jpg, id=607, 301.125pt x 381.425pt>
 File: images/djv2.jpg Graphic file (type jpg)
  <use images/djv2.jpg>
-<images/djv4.jpg, id=579, 301.125pt x 381.425pt>
+<images/djv4.jpg, id=608, 301.125pt x 381.425pt>
 File: images/djv4.jpg Graphic file (type jpg)
  <use images/djv4.jpg>
-<images/djv3.jpg, id=580, 301.125pt x 381.425pt>
+<images/djv3.jpg, id=609, 301.125pt x 381.425pt>
 File: images/djv3.jpg Graphic file (type jpg)
  <use images/djv3.jpg>
 Overfull \hbox (28.41539pt too wide) in paragraph at lines 1187--1187
@@ -2327,10 +2323,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 11841 strings out of 94101
- 208188 string characters out of 1165810
- 279855 words of memory out of 1500000
- 14633 multiletter control sequences out of 10000+50000
+ 12032 strings out of 94101
+ 210320 string characters out of 1165809
+ 279856 words of memory out of 1500000
+ 14808 multiletter control sequences out of 10000+50000
  19505 words of font info for 72 fonts, out of 1200000 for 2000
  637 hyphenation exceptions out of 8191
  41i,16n,51p,352b,453s stack positions out of 5000i,500n,6000p,200000b,5000s
@@ -2348,9 +2344,9 @@ re/texmf-texlive/fonts/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf-texlive/fon
 ts/type1/bluesky/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/
 cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/cmex/fmex8.pfb></usr/sha
 re/texmf-texlive/fonts/type1/bluesky/ams/msam7.pfb>
-Output written on slides02.pdf (69 pages, 2944691 bytes).
+Output written on slides02.pdf (69 pages, 2949577 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
+ 718 PDF objects out of 1000 (max. 8388607)
  143 named destinations out of 1000 (max. 131072)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
